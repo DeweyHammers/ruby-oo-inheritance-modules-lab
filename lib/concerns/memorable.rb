@@ -18,8 +18,10 @@ end
 
 class Song
     extend Memorable::ClassMethods
+    include Memorable::InstanceMethod
 end
 
 class Artist
     extend Memorable::ClassMethods
+    include Memorable::InstanceMethod
 end
